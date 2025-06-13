@@ -21,8 +21,6 @@ A multi-functional Python toolkit for password security analysis, vulnerability 
 - **Output Formats**: .txt (Hashcat/John compatible)
 - **Performance**: Generates 10,000+ combinations in <1s
 
-## 🛠 Installation
-
 ### Prerequisites
 - Python 3.7+
 - pip install zxcvbn nltk argparse
