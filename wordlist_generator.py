@@ -8,14 +8,14 @@ def generate_wordlist(keywords, years, output_file="custom_wordlist.txt"):
         leet = word.replace('e', '3').replace('a', '@').replace('o', '0')
         variations.extend([word, word.lower(), word.upper(), leet])
     
-    # Combine with years
+    
     wordlist = []
     for word in variations:
         for year in years:
             wordlist.append(f"{word}{year}")
             wordlist.append(f"{year}{word}")
     
-    # Save to file
+   
     with open(output_file, 'w') as f:
         f.write('\n'.join(wordlist))
     
