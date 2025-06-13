@@ -16,13 +16,13 @@ def generate():
 app = tk.Tk()
 app.title("Password Tool")
 
-# Password Analyzer
+
 tk.Label(app, text="Password Analyzer").pack()
 entry_password = tk.Entry(app, width=30)
 entry_password.pack()
 tk.Button(app, text="Analyze", command=analyze).pack()
 
-# Wordlist Generator
+
 tk.Label(app, text="\nWordlist Generator").pack()
 tk.Label(app, text="Keywords (space-separated):").pack()
 entry_keywords = tk.Entry(app, width=30)
