@@ -22,6 +22,7 @@ A multi-functional Python toolkit for password security analysis, vulnerability 
 - **Performance**: Generates 10,000+ combinations in <1s
 
 ### Prerequisites
-- Python 3.7+
+- Install Python 3.7+
+- ```bash
 - pip install zxcvbn nltk argparse
 
