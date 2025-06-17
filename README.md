@@ -24,5 +24,5 @@ A multi-functional Python toolkit for password security analysis, vulnerability 
 ### Prerequisites
 - Install Python 3.7+
 - ```bash
-- pip install zxcvbn nltk argparse
+  pip install zxcvbn nltk argparse
 
